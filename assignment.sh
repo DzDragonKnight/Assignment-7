@@ -6,6 +6,6 @@ service nginx start
 
 sed -i 's/Welcome to nginx/Welcome to Jacks page/' /var/www/html/*.html 
 
-sed -i 's/nginx/ (pronounced as EngineX)/' /var/www/html/*.html
+sed -i 's/nginx/nginx (pronounced as EngineX)/' /var/www/html/*.html
 
 service  nginx restart
